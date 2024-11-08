@@ -1,0 +1,140 @@
+@font-face {
+  font-family: headerfont;
+  src: url("./components/assets/fonts/BlackGirl-z8Y4w.otf");
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+
+body {
+  background-color: rgb(202, 202, 200);
+}
+
+.products-container {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.main-products-container {
+  width: 90%;
+  background-color: rgb(168, 179, 176);
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  gap: 3%;
+  border-radius: 35px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  /* justify-content:flex-start; */
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.card-description {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 20px;
+  width: 70%;
+  margin: auto;
+}
+
+.navbar,
+.footer {
+  width: 100%;
+  min-height: 10vh;
+  background-color: rgb(34, 33, 33);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: white;
+  justify-content: space-around;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+#Header {
+  font-family: headerfont;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 4px 4px grey;
+  letter-spacing: 3px;
+}
+
+#bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainBtn:link,
+a:visited {
+  min-width: 500px;
+  background-color: rgba(38, 172, 154, 0.6);
+  font-size: 35px;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  /* display: block; */
+  border-radius: 40px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  transition-duration: 0.4s;
+  box-shadow: 3px 5px rgb(107, 106, 106);
+  text-shadow: 5px 3px 3px rgb(54, 56, 56);
+}
+
+.mainBtn:hover {
+  background-color: rgb(20, 188, 255);
+}
+
+#container {
+  min-height: 80vh;
+}
+
+.productinfo {
+  margin: auto;
+  width: 30%;
+  font-size: 30px;
+}
+
+#viewtitle {
+  text-align: center;
+}
+
+.btn {
+  padding: 5px;
+  margin: 15px auto;
+  background-color: rgb(179, 220, 227);
+  border-radius: 30%;
+}
+
+.btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
