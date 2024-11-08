@@ -21,7 +21,7 @@ The API Fake Store App is a simple web application that allows users to browse, 
 
 1. Clone the repository:
    ```sh
-   git clone http://45.55.66.15/375961/api-fake-store.git
+   git clone [https://github.com/jennihunt/fake-API-store.git]
    ```
 2. Navigate to the project directory:
    ```sh
